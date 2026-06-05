@@ -1,5 +1,3 @@
-switcheroooo
-JS • 17.26 KB
 const DEFAULT_LANG = {
     button: {
         add: "Añadir personaje"
