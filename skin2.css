@@ -1,0 +1,304 @@
+/*nuevobaul*/
+.b-box {    display: flex;
+    position: relative;}
+.b-pict {outline: 1px solid #4a4a4a;
+    outline-offset: 3px;
+    width: 250px;
+    height: 340px;}
+.b-box2 {   width: 417px;
+    height: 141px;
+    margin-left: 19px;}
+.b-dat { display: flex;
+    position: relative;
+    width: 400px;
+    align-items: center;}
+.b-dat d1:before {content: "edad";
+    color: #9f8b65;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;}
+.b-dat d2:before {content: "ocupación";
+    color: #9f8b65;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;}
+.b-dat d3:before {content: "Nacionalidad";
+    color: #9f8b65;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;}
+.b-dat d4:before {content: "Rango";
+    color: #9f8b65;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;}
+.b-dat d5:before {content: "Faceclaim";
+    color: #9f8b65;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;}
+.b-dat d1 {    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;}
+.b-dat d2 {    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;}
+.b-dat d3 {    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;}
+.b-dat d4 {    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;}
+.b-dat d5 {    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;}
+.b-dat2 {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgb(143, 139, 139);
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    gap: 9px 0px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: -17px;
+    align-items: flex-start;}
+.b-music {   display: flex;
+    position: relative;
+    background: #211f1c3b;
+    width: 418px;
+    height: 215px;
+    margin-top: -15px;
+    overflow: auto;
+    flex-direction: column;
+    border-top: 1px solid #4c493f;}
+.b-track {width: 397px;
+    height: 51px;
+    background: #12121291;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+    justify-content: center;
+    border: 1px solid #3d372f;}
+/*bitacora*/
+.bit-1 {    display: flex;
+    position: relative;
+    width: 663px;
+    margin-top: -25px;
+    margin-right: 42px;}
+.bit-img {width: 150px;
+    height: 150px;
+    outline: 1px solid #4c493f;
+    outline-offset: 2px;}
+.bit-caja-st {display: flex;
+    position: relative;
+    width: 577px;
+    margin-left: 7px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;}
+.bit-stats {display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 559px;
+    align-content: center;
+    align-items: center;}
+.bit-caja-st st1 {    display: flex;
+    position: relative;
+    width: 50px;
+    align-items: center;
+    border-bottom: 1px solid #4a4a4a;
+    height: 106px;
+    font-family: 'Poiret One';
+    font-size: 21px;
+    color: #9b958e;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;}
+.bit-caja-st st2 {    display: flex;
+    position: relative;
+    width: 50px;
+    align-items: center;
+    border-bottom: 1px solid #4a4a4a;
+    height: 106px;
+    font-family: 'Poiret One';
+    font-size: 21px;
+    color: #9b958e;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;}
+.bit-caja-st st3 {    display: flex;
+    position: relative;
+    width: 50px;
+    align-items: center;
+    border-bottom: 1px solid #4a4a4a;
+    height: 106px;
+    font-family: 'Poiret One';
+    font-size: 21px;
+    color: #9b958e;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;}
+.bit-caja-st st4 {    display: flex;
+    position: relative;
+    width: 50px;
+    align-items: center;
+    border-bottom: 1px solid #4a4a4a;
+    height: 106px;
+    font-family: 'Poiret One';
+    font-size: 21px;
+    color: #9b958e;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;}
+.bit-caja-st st5 {    display: flex;
+    position: relative;
+    width: 50px;
+    align-items: center;
+    border-bottom: 1px solid #4a4a4a;
+    height: 106px;
+    font-family: 'Poiret One';
+    font-size: 21px;
+    color: #9b958e;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;}
+.bit-caja-st st1:before {content: "Voluntad";
+    color: #121212;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    width: 102px;
+    display: flex;
+    position: relative;
+    background: #a28762;
+    justify-content: center;
+    letter-spacing: 1px;
+    height: 45px;
+    align-items: center;
+    font-weight: 800;}
+.bit-caja-st st2:before {content: "Lucidez";
+    color: #121212;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    width: 102px;
+    display: flex;
+    position: relative;
+    background: #a28762;
+    justify-content: center;
+    letter-spacing: 1px;
+    height: 45px;
+    align-items: center;
+    font-weight: 800;}
+.bit-caja-st st3:before {content: "Ímpetu";
+    color: #121212;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    width: 102px;
+    display: flex;
+    position: relative;
+    background: #a28762;
+    justify-content: center;
+    letter-spacing: 1px;
+    height: 45px;
+    align-items: center;
+    font-weight: 800;}
+.bit-caja-st st4:before {content: "Temple";
+    color: #121212;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    width: 102px;
+    display: flex;
+    position: relative;
+    background: #a28762;
+    justify-content: center;
+    letter-spacing: 1px;
+    height: 45px;
+    align-items: center;
+    font-weight: 800;}
+.bit-caja-st st5:before {content: "Sintonía";
+    color: #121212;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    width: 102px;
+    display: flex;
+    position: relative;
+    background: #a28762;
+    justify-content: center;
+    letter-spacing: 1px;
+    height: 45px;
+    align-items: center;
+    font-weight: 800;}
+.bit-2 {display: flex;
+    position: relative;
+    width: 671px;
+    flex-direction: column;}
+.bit-d-titulo {    display: flex;
+    position: relative;
+    border-bottom: 1px solid #46443f;
+    font-size: 20px;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    padding: 2px;
+    color: #7e7364;
+    text-transform: uppercase;}
+.barra {       width: 669px;
+    height: 20px;
+    border: 1px solid #4a4a4a;
+    border-radius: 4px;
+    overflow: hidden;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    font-size: 11px;
+    margin-top: -24px;}
+.barra-fill {       height: 100%;
+    background: #6e6b5e;
+    color: #0a0a0a;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    transition: width 0.5s ease;
+    margin-top: 0px;
+    }
+.bit-login {        display: flex;
+    position: relative;
+    width: 653px;
+    height: 95px;
+    margin-top: -21px;
+    background: #1212125e;
+    overflow: auto;
+    padding: 10px;}
+.bit-t {padding: 4px;
+    line-height: 22px;
+    font-size: 13px;
+    color: #a3a3a3;
+    letter-spacing: 1px;}
