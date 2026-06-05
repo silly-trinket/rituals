@@ -1,0 +1,718 @@
+/*celu*/
+.celu {
+    display: flex; 
+    position: relative;
+    justify-content: center
+}
+.celu-tcaja datos {
+    font-family: monospace;
+    font-size: 9px;
+    margin-top: -21px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    font-style: italic;
+    color: #262521;
+}
+.celu-tcaja mensaje {
+    padding: 2px;
+    border-bottom: 1px dotted #28271e;
+}
+.celu-fondo {
+    background-image: url(https://2img.net/i.imgur.com/T7YTuWL.png);
+    width: 250px;
+    height: 400px;}
+.celu-tcaja {
+    display: flex;
+    position: relative;
+    background: #6f6a4e;
+    padding: 2px;
+    width: 90px;
+    height: 69px;
+    margin-left: 106px;
+    margin-top: 114px;
+    border-radius: 4px;    overflow: auto;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: "VT323", monospace;
+    color: #000;
+    align-content: center;
+    align-items: center;
+}
+
+
+/*registros*/
+.r-titu {
+    position: sticky;
+    top: 0;  z-index: 10;
+    background: #181818;
+    height: 34px;    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5a5043;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.r-list {
+    height: 165px;
+    overflow: auto;
+    font-size: 13px;
+    color: #c9c9c9;
+}
+.reg-m {
+    width: 250px;
+    margin-left: 24px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+.reg-f {
+    width: 250px;
+    margin-left: 24px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;}
+.reg-cajas r1 {
+    border-bottom: 1px solid #3c362e;
+    width: 250px;
+    text-align: center;
+    font-family: 'Poiret One';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 17px;
+    padding: 4px;
+}
+.reg-lista {
+    width: 240px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto';
+    color: #a5a5a5;
+}
+.reg {
+    background: #121212db;
+    width: 600px;
+    height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    outline: 1px solid #4a4a4a;
+    outline-offset: 3px;
+}
+.reg r {
+    padding: 30px;
+    background: #080808b5;
+    width: 540px;
+    display: flex;
+    font-family: 'Poiret One';
+    justify-content: center;
+    letter-spacing: 3px;
+    font-size: 29px;    color: #5a544c;
+    font-weight: 800;
+}
+.reg-cajas {
+    align-items: flex-end;
+    margin-left: -18px;
+    display: flex;
+    position: relative;
+    width: 500px;
+    align-content: space-between;
+    justify-content: center;
+}
+.reg-t {
+    background: #4040402b;
+    width: 509px;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Roboto';
+    color: #e5e5e5;
+}
+.work-a {
+    width: 250px;height: 235px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #3b352c;
+    margin-top: 20px;
+}
+.r-work {
+    width: 550px;
+    background: #0000002b;
+    display: flex;position: relative;
+    flex-wrap: wrap; 
+    justify-content: center;
+    outline: 1px solid #4a4a4a3b;
+    outline-offset: 4px;}
+
+
+/*ficha*/
+/*ficha3*/
+.record {
+    width: 750px;  
+    background: #120d0a61;
+    outline: 1px solid #3e3e3e;
+    outline-offset: 3px;
+}
+.rec-arriba {
+    display: flex;
+    height: 97px; 
+    border-bottom: 1px solid #837f7f;
+    width: 748px;
+    background: url(https://2img.net/i.imgur.com/Hrdt1p0.png);
+    filter: brightness(0.5);
+    opacity: .5;
+    margin-bottom: -12px;
+    justify-content: center; 
+    align-items: center;
+    background-position: bottom;
+}
+.rec-arriba name {
+    font-family: "Poiret One", sans-serif;
+    display: flex;
+    margin: -1px auto;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    height: 49px;
+    border: 1px solid #cfcfcf;
+    width: 555px;
+    background: #0000006e;
+    justify-content: center;
+    align-items: center;
+}
+.rec-grilla {
+    display: flex;
+    position: relative;}
+.rec-cont {
+    position: relative;
+    display: flex;
+    width: 260px;
+    height: 450px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    outline: 1px solid #4a4a4a;
+    outline-offset: 2px;
+}
+.rec-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .9s cubic-bezier(0.4, 0, 1, 1);
+}
+.rec-img-fr {
+    width: 260px;
+    position: absolute;
+    height: 430px;
+    background: #121212c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1.2s ease;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.rec-img-fr t {
+    font-family: 'Oranienbaum';
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-style: italic;
+    color: #bdbaba;
+    width: 200px;
+}
+.rec-cont:hover .rec-img-fr {
+    opacity: 1;
+}
+.rec-caja {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 450px;
+}
+.rec-divi {
+    margin-left: 7px;
+    background: var(--grupo-color);
+    width: 2px;
+    height: 453px;
+}
+.rec-dat {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #8f8b8b;   font-weight: 600;
+    display: flex;    
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    text-align: center;
+    text-transform: uppercase;
+    gap: 10px 0px;}
+.rec-caja d1 {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rec-caja d2 {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   align-items: center;
+}
+.rec-caja d3 {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rec-caja d4 {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rec-caja d1:before {
+    content: "edad";
+    color: var(--grupo-color);
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+.rec-caja d2:before {
+    content: "empleo";
+    color: var(--grupo-color);
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+.rec-caja d3:before {
+    content: "nacionalidad";
+    color: var(--grupo-color);
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+.rec-caja d4:before {
+    content: "face claim";
+    color: var(--grupo-color);
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;}
+.record-a record {
+    display: block;
+    height: 324px;
+    overflow-y: scroll;
+}
+.rec-hist {
+    height: auto;
+    padding: 0px 8px 6px;
+    text-align: justify;
+    font-family: 'Roboto';
+    color: #c1bfbf;
+}
+.rec-datos {
+    height: auto;
+    padding: 0px 8px 6px;
+    text-align: justify;
+    font-family: 'Roboto';
+    color: #c1bfbf;
+}
+.rec-titu1 {
+    font-size: 24px;
+    margin-top: 20px;
+     background-color: #121212;
+     padding: 10px;
+     position: sticky;
+     top: 0;
+     z-index: 10;
+     letter-spacing: 2px;
+     font-family: 'Poiret One';
+     text-transform: uppercase;
+     color: var(--grupo-color);
+     text-align: end;
+     font-weight: 600;
+    }
+
+  /*celu*/
+.celu {
+    display: flex; 
+    position: relative;
+    justify-content: center
+}
+.celu-tcaja datos {
+    font-family: monospace;
+    font-size: 9px;
+    margin-top: -21px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    font-style: italic;
+    color: #262521;
+}
+.celu-tcaja mensaje {
+    padding: 2px;
+    border-bottom: 1px dotted #28271e;
+}
+.celu-fondo {
+    background-image: url(https://2img.net/i.imgur.com/T7YTuWL.png);
+    width: 250px;
+    height: 400px;}
+.celu-tcaja {
+    display: flex;
+    position: relative;
+    background: #6f6a4e;
+    padding: 2px;
+    width: 90px;
+    height: 69px;
+    margin-left: 106px;
+    margin-top: 114px;
+    border-radius: 4px;    overflow: auto;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: "VT323", monospace;
+    color: #000;
+    align-content: center;
+    align-items: center;
+}
+
+
+/*registros*/
+.r-titu {
+    position: sticky;
+    top: 0;  z-index: 10;
+    background: #181818;
+    height: 34px;    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5a5043;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.r-list {
+    height: 165px;
+    overflow: auto;
+    font-size: 13px;
+    color: #c9c9c9;
+}
+.reg-m {
+    width: 250px;
+    margin-left: 24px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+.reg-f {
+    width: 250px;
+    margin-left: 24px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;}
+.reg-cajas r1 {
+    border-bottom: 1px solid #3c362e;
+    width: 250px;
+    text-align: center;
+    font-family: 'Poiret One';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 17px;
+    padding: 4px;
+}
+.reg-lista {
+    width: 240px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto';
+    color: #a5a5a5;
+}
+.reg {
+    background: #121212db;
+    width: 600px;
+    height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    outline: 1px solid #4a4a4a;
+    outline-offset: 3px;
+}
+.reg r {
+    padding: 30px;
+    background: #080808b5;
+    width: 540px;
+    display: flex;
+    font-family: 'Poiret One';
+    justify-content: center;
+    letter-spacing: 3px;
+    font-size: 29px;    color: #5a544c;
+    font-weight: 800;
+}
+.reg-cajas {
+    align-items: flex-end;
+    margin-left: -18px;
+    display: flex;
+    position: relative;
+    width: 500px;
+    align-content: space-between;
+    justify-content: center;
+}
+.reg-t {
+    background: #4040402b;
+    width: 509px;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Roboto';
+    color: #e5e5e5;
+}
+.work-a {
+    width: 250px;height: 235px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #3b352c;
+    margin-top: 20px;
+}
+.r-work {
+    width: 550px;
+    background: #0000002b;
+    display: flex;position: relative;
+    flex-wrap: wrap; 
+    justify-content: center;
+    outline: 1px solid #4a4a4a3b;
+    outline-offset: 4px;}
+
+
+/*ficha*/
+/*ficha3*/
+.record {
+    width: 750px;  
+    background: #120d0a61;
+    outline: 1px solid #3e3e3e;
+    outline-offset: 3px;
+}
+.rec-arriba {
+    display: flex;
+    height: 97px; 
+    border-bottom: 1px solid #837f7f;
+    width: 748px;
+    background: url(https://2img.net/i.imgur.com/Hrdt1p0.png);
+    filter: brightness(0.5);
+    opacity: .5;
+    margin-bottom: -12px;
+    justify-content: center; 
+    align-items: center;
+    background-position: bottom;
+}
+.rec-arriba name {
+    font-family: "Poiret One", sans-serif;
+    display: flex;
+    margin: -1px auto;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    height: 49px;
+    border: 1px solid #cfcfcf;
+    width: 555px;
+    background: #0000006e;
+    justify-content: center;
+    align-items: center;
+}
+.rec-grilla {
+    display: flex;
+    position: relative;}
+.rec-cont {
+    position: relative;
+    display: flex;
+    width: 260px;
+    height: 450px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    outline: 1px solid #4a4a4a;
+    outline-offset: 2px;
+}
+.rec-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .9s cubic-bezier(0.4, 0, 1, 1);
+}
+.rec-img-fr {
+    width: 260px;
+    position: absolute;
+    height: 430px;
+    background: #121212c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1.2s ease;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.rec-img-fr t {
+    font-family: 'Oranienbaum';
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-style: italic;
+    color: #bdbaba;
+    width: 200px;
+}
+.rec-cont:hover .rec-img-fr {
+    opacity: 1;
+}
+.rec-caja {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 450px;
+}
+.rec-divi {
+    margin-left: 7px;
+    background: var(--grupo-color);
+    width: 2px;
+    height: 453px;
+}
+.rec-dat {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #8f8b8b;   font-weight: 600;
+    display: flex;    
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    text-align: center;
+    text-transform: uppercase;
+    gap: 10px 0px;}
+.rec-caja d1 {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rec-caja d2 {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   align-items: center;
+}
+.rec-caja d3 {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rec-caja d4 {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rec-caja d1:before {
+    content: "edad";
+    color: var(--grupo-color);
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+.rec-caja d2:before {
+    content: "empleo";
+    color: var(--grupo-color);
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+.rec-caja d3:before {
+    content: "nacionalidad";
+    color: var(--grupo-color);
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+.rec-caja d4:before {
+    content: "face claim";
+    color: var(--grupo-color);
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;}
+.record-a record {
+    display: block;
+    height: 324px;
+    overflow-y: scroll;
+}
+.rec-hist {
+    height: auto;
+    padding: 0px 8px 6px;
+    text-align: justify;
+    font-family: 'Roboto';
+    color: #c1bfbf;
+}
+.rec-datos {
+    height: auto;
+    padding: 0px 8px 6px;
+    text-align: justify;
+    font-family: 'Roboto';
+    color: #c1bfbf;
+}
+.rec-titu1 {
+    font-size: 24px;
+    margin-top: 20px;
+     background-color: #121212;
+     padding: 10px;
+     position: sticky;
+     top: 0;
+     z-index: 10;
+     letter-spacing: 2px;
+     font-family: 'Poiret One';
+     text-transform: uppercase;
+     color: var(--grupo-color);
+     text-align: end;
+     font-weight: 600;
+    }
+cronologia
+CSS • 1.6 KB
+/*cronología*/
+.crono {display: flex; 
+    flex-wrap: wrap; gap: 20px;
+}
+.crono-titulo {    text-align: center;line-height: 31px;  display: flex;position: relative; width: 390px; background: #0805019c;  height: 64px;  justify-content: center;align-items: center; flex-direction: column;}
+.crono-caja {    row-gap: 22px; display: flex; position: relative;flex-wrap: wrap; justify-content: center;}
+.crono mes {    font-family: 'Alumni Sans Pinstripe'; text-transform: uppercase; letter-spacing: 2px;  font-size: 29px; width: 359px; border: 1px solid #2c2d2d;  display: flex; position: relative;justify-content: center; height: 48px;align-items: center; color: #767676;}
+.crono-1 {align-items: center; width: 391px; background: #1212126b; display: flex; position: relative;flex-direction: column; height: 395px}
+.crono-c {width: 344px; background: #00000029;display: flex;  position: relative; flex-direction: row;    justify-content: space-around; height: 47px; padding: 6px;}
+.crono-titu a {     display: flex;   width: 310px; text-transform: uppercase; font-weight: 700;color: #6e5f4a;border-bottom: 1px solid #363636;}
+.crono-info {font-size: 10px;color: #7c7878;letter-spacing: 2px;font-style: italic;}
+.crono-icon {    width: 31px; height: 31px;border: 1px solid #363636; display: flex;}
+.crono-flow {width: 365px; display: flex;    justify-content: flex-start;   height: 297px;overflow: auto;border-bottom: 1px solid #433c32;  flex-direction: column;}
+.crono-icon {width: 31px;height: 31px;border: 1px solid #363636; display: flex; align-items: center;    font-size: 17px; color: #302d28; justify-content: center;}
+
