@@ -302,6 +302,7 @@
     font-size: 13px;
     color: #a3a3a3;
     letter-spacing: 1px;}
+/***/
 .f-top {display: flex;
     position: relative;
     justify-content: center;}
@@ -391,7 +392,6 @@
     letter-spacing: 8px;
     color: #afa382;}
 .f-hist-info {position: relative;
-    display: flex;
     height: 250px;
     padding: 4px;
     overflow: auto;
@@ -465,7 +465,6 @@
     font-weight: 900;
     font-style: italic;
 }
-
 .e-titulo {    display: flex;
     position: relative;
     border-bottom: 2px;
@@ -487,4 +486,15 @@
     text-align: justify;
     font-family: Roboto;
     color: rgb(193, 191, 191);
-    width: 670px;}
+    width: 670px;
+    gap: 9px;}
+.e-info res { background: #544b40;
+    height: 18px;
+    font-style: italic;
+    padding: 2px;
+    font-weight: 600;}
+.f-hist-info res   { background: #544b40;
+    height: 18px;
+    font-style: italic;
+    padding: 2px;
+    font-weight: 600;}
