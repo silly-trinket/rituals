@@ -302,3 +302,166 @@
     font-size: 13px;
     color: #a3a3a3;
     letter-spacing: 1px;}
+.f-top {display: flex;
+    position: relative;
+    justify-content: center;}
+.f-img {   outline: 1px solid #3e3e3e;
+    outline-offset: 5px;
+    width: 300px;
+    height: 200px;}
+.f-data {display: flex;
+    position: relative;
+    width: 298px;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 26px;
+    flex-wrap: wrap;
+    margin-top: 21px;
+    align-items: center;   }
+.f-ds {font-size: 10px;
+    letter-spacing: 2px;
+    color: rgb(143, 139, 139);
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    gap: 21px 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: stretch;
+    justify-content: center;}
+.f-quote {font-family: 'Oranienbaum';
+    font-size: 18px;
+    font-style: italic;
+    color: #747474;
+    letter-spacing: 1px;}
+.f-mid {display: flex;
+    position: relative;
+    justify-content: center;
+    width: 680px;
+    height: 57px;
+    background: #12121245;
+    align-items: center;}
+.f-data d1 {    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;}
+.f-data d2 {    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;}
+.f-data d3 {    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;}
+.f-data d4 {    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;}
+.f-data d5 {    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;}
+.f-bottom {display: flex;
+    position: relative;
+    justify-content: center;
+    width: 686px;
+    height: auto;}
+.f-hist {    display: flex;
+    position: relative;
+    width: 414px;
+    flex-direction: column;}
+.f-hist-t {display: flex;
+    position: relative;
+    border-bottom: 2px;
+    height: 41px;
+    background: #00000066;
+    justify-content: center;
+    margin-top: -20px;
+    align-items: center;
+    font-family: 'Alumni Sans Pinstripe';
+    font-size: 28px;
+    letter-spacing: 8px;
+    color: #afa382;}
+.f-hist-info {position: relative;
+    display: flex;
+    height: 250px;
+    padding: 4px;
+    overflow: auto;
+    text-align: justify;
+    font-family: Roboto;
+    color: rgb(193, 191, 191);}
+.f-odtit {display: flex;
+    border-bottom: 2px;
+    height: 41px;
+    background: #00000066;
+    justify-content: center;
+    margin-top: -20px;
+    align-items: center;
+    font-family: 'Alumni Sans Pinstripe';
+    font-size: 28px;
+    letter-spacing: 8px;
+    color: #afa382;}
+.f-od {display: flex;
+    position: relative;
+    width: 252px;
+    flex-direction: column;}
+.f-odinfo {position: relative;
+    height: 250px;
+    padding: 4px;
+    overflow: auto;
+    text-align: justify;
+    font-family: Roboto;
+    color: rgb(193, 191, 191);}
+.f-odinfo res { background: #544b40;
+    height: 18px;
+    font-style: italic;
+    padding: 2px;
+    font-weight: 600;}
+.f-data d1:before {
+    content: "edad";
+    color: #9f8b65;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+.f-data d2:before {
+    content: "ocupación";
+    color: #9f8b65;;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+.f-data d3:before {
+    content: "nacionalidad";
+    color:#9f8b65;;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+.f-data d4:before {
+    content: "rango";
+    color: #9f8b65;;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
+.f-data d5:before {
+    content: "faceclaim";
+    color: #9f8b65;;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+}
