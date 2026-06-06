@@ -465,3 +465,26 @@
     font-weight: 900;
     font-style: italic;
 }
+
+.e-titulo {    display: flex;
+    position: relative;
+    border-bottom: 2px;
+    height: 41px;
+    background: #00000066;
+    justify-content: center;
+    margin-top: -20px;
+    align-items: center;
+    font-family: 'Alumni Sans Pinstripe';
+    font-size: 28px;
+    letter-spacing: 8px;
+    color: #afa382;
+    width: 676px;}
+.e-t {position: relative;
+    display: flex;
+    height: 150px;
+    padding: 4px;
+    overflow: auto;
+    text-align: justify;
+    font-family: Roboto;
+    color: rgb(193, 191, 191);
+    width: 670px;}
