@@ -498,3 +498,95 @@
     font-style: italic;
     padding: 2px;
     font-weight: 600;}
+/*fichas nuevas*/
+
+.t-box {    position: relative;
+    width: 550px;
+    margin: 10px auto;}
+.tt-titulo {    text-align: center;
+    line-height: 31px;
+    display: flex;
+    position: relative;
+    width: 550px;
+    background: #0805019c;
+    top: -20px;
+    height: 104px;
+    justify-content: center;
+    align-items: center;}
+.tt-titulo h1 {font-family: 'Alumni Sans Pinstripe';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 29px;
+    width: 500px;
+    border: 1px solid #2c2d2d;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 74px;
+    align-items: center;
+    color: #767676;}
+.tt-fondo {    width: 550px;
+    background: #1212126b;
+    align-items: center;
+    margin-top: -39px;
+    border-bottom: 3px solid #4b483e;}
+.tt-contenido {width: 500px;
+    background: #121212;
+    margin: 10px auto;}
+.tt-info {    display: flex;
+    position: relative;
+    width: 471px;
+    padding: 10px;
+    border: 1px solid #4a4a4a;
+    justify-content: center;
+    margin: 10px auto;
+    align-items: center;}
+.tt-contenido .texto {text-align: justify;
+    padding: 21px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13.5px;
+    color: #bdbdc1;}
+.tt2-box {background: #000000c2;
+    width: 550px;
+    height: 85px;
+    display: flex;
+    border-bottom: 3px solid #3d362f;
+    position: relative;
+    justify-content: center;
+    align-items: center;}
+.tt2-box h1 {width: 500px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: #66635f;
+    font-family: 'Alumni Sans Pinstripe';}
+.tt2-fondo {width: 550px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background: #121212;
+    align-items: center;
+    margin-top: -20px;}
+.tt2-info {position: relative;
+    display: flex;
+    width: 500px;
+    background: #8585850a;
+    height: 37px;
+    align-items: center;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: #7c7468;
+    font-weight: 700;
+    justify-content: space-around;}
+.tt2-contenido {padding: 9px;
+    width: 482px;
+    border-bottom: 2px solid #3b352d7a;}
+.tt2-texto {    font-family: 'Roboto';
+    font-size: 15px;
+    color: #bdbdc1;
+    line-height: 20px;}
