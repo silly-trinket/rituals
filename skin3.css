@@ -688,3 +688,9 @@
     font-weight: 700;
     color: #5e5241;
     text-shadow: 5px 5px 1px #0000008f;}
+.tt2-contenido img {    border-width: 0;
+    outline: 1px solid #3a37377a;
+    outline-offset: 5px;}
+.tt-contenido {    border-width: 0;
+    outline: 1px solid #3a37377a;
+    outline-offset: 5px;}
