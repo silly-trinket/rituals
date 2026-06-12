@@ -533,7 +533,7 @@
 .tt-contenido {width: 500px;
     background: #121212;
     margin: 10px auto;}
-.tt-info {    display: flex;
+.tt-infobox {    display: flex;
     position: relative;
     width: 471px;
     padding: 10px;
@@ -589,4 +589,95 @@
 .tt2-texto {    font-family: 'Roboto';
     font-size: 15px;
     color: #bdbdc1;
-    line-height: 20px;}
+    line-height: 20px;
+    margin-top: -37px;}
+
+/*estilos*/
+.tt-texto t {width: 450px;
+    background: #212222;
+    padding: 5px;
+    height: auto;
+    text-align: justify;
+    display: flex;
+    position: relative;}
+.tt-texto t1 {    padding: 10px;
+    border-bottom: 1px solid;
+    width: 450px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: var(--grupo-color);
+    font-weight: 500;
+    display: flex;}
+.tt-texto t2 {border: 1px solid #4e4e4e5c;
+    padding: 14px;
+    color: #838383;
+    background: #0e0e0e;
+    position: relative;
+    font-size: 13px;
+    display: flex;
+    position: relative;}
+.tt-texto t3 {    font-family: 'Oranienbaum';
+    font-size: 19px;
+    font-style: italic;
+    width: 450px;
+    text-align: right;
+    border-bottom: 1px solid #2c2720;
+    color: #5e5b55;
+    display: flex;}
+.tt-texto t4 {display: flex;
+    position: relative;
+    width: 450px;
+    font-family: 'Alumni Sans Pinstripe';
+    letter-spacing: 2px;
+    font-size: 29px;
+    justify-content: center;
+    font-style: italic;
+    font-weight: 700;
+    color: #5e5241;
+    text-shadow: 5px 5px 1px #0000008f;}
+.tt2-texto t {width: 450px;
+    background: #212222;
+    padding: 5px;
+    height: auto;
+    text-align: justify;
+    display: flex;
+    position: relative;}
+.tt2-texto t1 {    padding: 10px;
+    border-bottom: 1px solid;
+    width: 450px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: var(--grupo-color);
+    font-weight: 500;
+    display: flex;}
+.tt2-texto t2 {border: 1px solid #4e4e4e5c;
+    padding: 14px;
+    color: #838383;
+    background: #0e0e0e;
+    position: relative;
+    font-size: 13px;
+    display: flex;
+    position: relative;}
+.tt2-texto t3 {    font-family: 'Oranienbaum';
+    font-size: 19px;
+    font-style: italic;
+    width: 450px;
+    text-align: right;
+    border-bottom: 1px solid #2c2720;
+    color: #5e5b55;
+    display: flex;}
+.tt2-texto t4 {display: flex;
+    position: relative;
+    width: 450px;
+    font-family: 'Alumni Sans Pinstripe';
+    letter-spacing: 2px;
+    font-size: 29px;
+    justify-content: center;
+    font-style: italic;
+    font-weight: 700;
+    color: #5e5241;
+    text-shadow: 5px 5px 1px #0000008f;}
