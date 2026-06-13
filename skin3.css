@@ -701,3 +701,41 @@
     display: flex;
     width: 495px;
     justify-content: space-around;}
+/*bitacora2*/
+.bit-pnj {display: flex;
+    width: 500px;
+    margin: 15px auto;}
+.bit-caja {width: 500px;
+    background: #12121287;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    outline: 1px solid #3a342c;
+    outline-offset: 3px;}
+.bit-foto {    margin: 15px;
+    width: 200px;
+    height: 250px;
+    background: white;}
+.bit-relas {    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;}
+.bit-nombres {    font-family: 'Oranienbaum';
+    letter-spacing: 4px;
+    font-size: 14px;
+    color: #83776a;
+    font-style: italic;}
+.barrita {    height: 9px;
+    width: 246px;
+    border: 1px solid #302f2f;
+    overflow: hidden;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    font-size: 11px;}
+.barrita-filling {width: 50%;
+    height: 100%;
+    background: #38312a;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    transition: width 0.5s ease;
+    margin-top: 0px;}
