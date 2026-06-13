@@ -587,8 +587,7 @@
     letter-spacing: 2px;
     font-style: italic;
     color: #7c7468;
-    font-weight: 700;
-    justify-content: space-around;}
+    font-weight: 700;}
 
 .tt2-contenido {padding: 9px;
     width: 482px;
@@ -694,3 +693,11 @@
 .tt-contenido img {    border-width: 0;
     outline: 1px solid #3a37377a;
     outline-offset: 5px;}
+.tt-infoo {    display: flex;
+    position: relative;
+    width: 500px;
+    justify-content: space-around;}
+.tt2-infoi {position: relative;
+    display: flex;
+    width: 495px;
+    justify-content: space-around;}
