@@ -605,7 +605,7 @@
     padding: 5px;
     height: auto;
     text-align: justify;
-    display: flex;
+    display: block;
     position: relative;}
 .tt-texto t1 {    padding: 10px;
     border-bottom: 1px solid;
@@ -623,7 +623,7 @@
     background: #0e0e0e;
     position: relative;
     font-size: 13px;
-    display: flex;
+    display: block;
     position: relative;}
 .tt-texto t3 {    font-family: 'Oranienbaum';
     font-size: 19px;
