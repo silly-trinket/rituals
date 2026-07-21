@@ -40,10 +40,18 @@
 }
 
 .headbusca {
-display: flex;
-    margin: 10px;
-    border: var(--borde2);
-    height: 100px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+    border: 1px solid #c5c5c5;
+    height: 80px;
+    width: 1115px;
+    background: url(https://2img.net/i.imgur.com/Hrdt1p0.png);
+    filter: brightness(.5);
+    opacity: .5;
+    margin-bottom: -12px;
+    justify-content: center;
+    align-items: center;
 }
 
 .hb-icon {
@@ -59,29 +67,35 @@ width: 10%;
 }
 
 .hb-info {
-    width: 90%;
-    background: var(--fondo3);
+   font-family: "Poiret One", sans-serif;
     display: flex;
+    margin: -1px auto;
     flex-direction: column;
-    justify-content: center;
-    box-sizing: border-box;
-    padding-left: 50px;
 }
 
 .hb-i1 {
-font-size: 20px;
-    font-weight: 800;
-    line-height: 100%;
-    color: transparent;
-    background: var(--gradient1);
-    width: fit-content;
-    background-clip: text;
-    margin-bottom: 5px;
+    font-family: "Poiret One", sans-serif;
+    display: flex;
+    margin: -1px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    height: 40px;
+    border: 1px solid #cfcfcf;
+    width: 555px;
+    background: #0000006e;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .hb-i2 {
-    text-transform: uppercase;
-    font-size: 12px;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    justify-content: center;
+    letter-spacing: 2px;
 }
 
 .rowt1-03 {
@@ -104,12 +118,15 @@ display: flex;
 }
 
 .rowt1-02 {
-width: 10%;
-    box-sizing: border-box;
+color: #f5f5f591;
+    width: 10%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    border-left: 1px solid #524e4b4a;
     align-items: center;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .rowt1-2k {
@@ -149,11 +166,13 @@ flex: 1;
 }
 
 .rowt1-1-1 a {
-text-transform: lowercase;
-    font-style: italic;
+    font-size: 15px;
+    font-family: "Poiret One", sans-serif;
+    text-transform: uppercase;
+    line-height: 100%;
     font-weight: 800;
-    font-size: 18px;
-    color: var(--links1);
+    margin-bottom: 2px;
+    letter-spacing: 2px;
 }
 
 .rowt1-1-2 {
@@ -165,11 +184,11 @@ text-transform: lowercase;
 }
 
 .rowt1-1-2 a {
-text-transform: uppercase;
+    text-transform: uppercase;
     font-weight: 600;
-    color: var(--textobase);
+    color: #6e6e6e;
     font-size: 11px;
-    font-style: italic;
+    letter-spacing: 2px;
     opacity: .7;
 }
 
@@ -203,10 +222,23 @@ text-transform: uppercase;
 }
 
 .rowti {
-background: var(--fondo2);
-    margin: 5px 10px 11px;
-    height: 75px;
-    border: var(--borde2);
+position: relative;
+    background: #0202028a;
+    border: 1px solid #363635;
+    margin-bottom: 10px;
     display: flex;
-    align-items: center;
+    height: 80px;
+}
+
+.quizas {
+    display: flex;
+    position: relative;
+    left: -117px;
+}
+
+.rowt1-3-3 {
+    <div class="rowt1-3-3" style="
+    color: #5c5656;
+    font-style: italic;
+">Hoy a las 22:14</div>
 }
