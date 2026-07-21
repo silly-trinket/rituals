@@ -597,7 +597,8 @@
     font-size: 15px;
     color: #bdbdc1;
     line-height: 20px;
-    margin-top: -37px;}
+    margin-top: -37px;
+    text-align: justify;}
 
 /*estilos*/
 .tt-texto t {width: 450px;
