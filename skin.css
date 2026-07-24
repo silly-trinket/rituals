@@ -706,7 +706,7 @@ CSS • 1.6 KB
     flex-wrap: wrap; gap: 20px;
 }
 .crono-titulo {    text-align: center;line-height: 31px;  display: flex;position: relative; width: 390px; background: #0805019c;  height: 64px;  justify-content: center;align-items: center; flex-direction: column;}
-.crono-caja {    row-gap: 22px; display: flex; position: relative;flex-wrap: wrap; justify-content: center;}
+.crono-caja {    gap: 20px; row-gap: 22px; display: flex; position: relative;flex-wrap: wrap; justify-content: center;}
 .crono mes {    font-family: 'Alumni Sans Pinstripe'; text-transform: uppercase; letter-spacing: 2px;  font-size: 29px; width: 359px; border: 1px solid #2c2d2d;  display: flex; position: relative;justify-content: center; height: 48px;align-items: center; color: #767676;}
 .crono-1 {align-items: center; width: 391px; background: #1212126b; display: flex; position: relative;flex-direction: column; height: 395px}
 .crono-c {width: 344px; background: #00000029;display: flex;  position: relative; flex-direction: row;    justify-content: space-around; height: 47px; padding: 6px;}
