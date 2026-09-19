@@ -626,6 +626,10 @@
     font-size: 13px;
     display: block;
     position: relative;}
+  .tt2-texto t2 b {color: #b9b8b4;}
+    .tt2-texto t2 u {    text-decoration: underline;
+    color:  #b9b8b4;
+    letter-spacing: 1px;}
 .tt-texto t3 {    font-family: 'Oranienbaum';
     font-size: 19px;
     font-style: italic;
