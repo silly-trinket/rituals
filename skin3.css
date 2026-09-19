@@ -630,6 +630,11 @@
 .tt-texto t2 u {    text-decoration: underline;
     color:  #b9b8b4;
     letter-spacing: 1px;}
+.tt-texto t2 i {letter-spacing: 1.5px;
+    font-family: 'Oranienbaum';
+    font-size: 15px;
+    color: #b9b8b4;
+    font-weight: 500;}
 .tt-texto t3 {    font-family: 'Oranienbaum';
     font-size: 19px;
     font-style: italic;
