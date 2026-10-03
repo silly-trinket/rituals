@@ -677,7 +677,7 @@
     background: #0e0e0e;
     position: relative;
     font-size: 13px;
-    display: flex;
+    display: block;
     position: relative;}
 .tt2-texto t3 {    font-family: 'Oranienbaum';
     font-size: 19px;
